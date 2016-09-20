@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.kodipopcorntime"
+	name="KODI Popcorn Time"
+	version="1.5.4.rc2"
+	provider-name="Markop159">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<website><![CDATA[https://markop159.github.io/KodiPopcornTime/]]></website>
+		<source><![CDATA[https://github.com/markop159/KODI-Popcorn-Time]]></source>
+		<language>English</language>
+		<licence><![CDATA[GNU GENERAL PUBLIC LICENCE. Version 3, 29 June 2007]]></licence>
+		<summary lang="en"><![CDATA[KODI Popcorn Time: Stream movies, Tv Shows and Anime in KODI.]]></summary>
+		<noicon>false</noicon>
+		<nofanart>false</nofanart>
+	</extension>
+</addon>
+<addon id="plugin.video.kodipopcorntime"
+	name="KODI Popcorn Time"
+	version="1.5.3.rc1"
+	provider-name="Markop159">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<website><![CDATA[https://markop159.github.io/KodiPopcornTime/]]></website>
+		<source><![CDATA[https://github.com/markop159/KODI-Popcorn-Time]]></source>
+		<language>English</language>
+		<licence><![CDATA[GNU GENERAL PUBLIC LICENCE. Version 3, 29 June 2007]]></licence>
+		<summary lang="en"><![CDATA[KODI Popcorn Time: Stream movies, Tv Shows and Anime in KODI.]]></summary>
+		<noicon>false</noicon>
+		<nofanart>false</nofanart>
+	</extension>
+</addon>
+<addon id="plugin.video.kodipopcorntime.repository"
+	name="KODI Popcorn Time Repository"
+	version="1.0.0"
+	provider-name="Markop159">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<website><![CDATA[https://github.com/markop159/KODI-Popcorn-Time]]></website>
+		<source><![CDATA[https://github.com/markop159/KODI-Popcorn-Time]]></source>
+		<language>English</language>
+		<licence><![CDATA[GNU GENERAL PUBLIC LICENCE. Version 3, 29 June 2007]]></licence>
+		<summary lang="en"><![CDATA[KODI Popcorn Time Auto Update]]></summary>
+		<noicon>false</noicon>
+		<nofanart>false</nofanart>
+	</extension>
+</addon>
+</addons>

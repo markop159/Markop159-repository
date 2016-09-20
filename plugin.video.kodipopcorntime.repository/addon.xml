@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.kodipopcorntime.repository" name="Markop159 Repository" version="1.0.0" provider-name="Markop159">
+	<extension point="xbmc.addon.repository" name="Markop159 Repository">
+		<info compressed="false">https://raw.githubusercontent.com/markop159/KODI-Popcorn-Time/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/markop159/KODI-Popcorn-Time/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/markop159/KODI-Popcorn-Time/master/Releases</datadir>
+	</extension>
+	<requires>
+		<import version="2.14.0" addon="xbmc.python"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<website><![CDATA[https://github.com/markop159/KODI-Popcorn-Time]]></website>
+		<source><![CDATA[https://github.com/markop159/KODI-Popcorn-Time]]></source>
+		<language>English</language>
+		<licence><![CDATA[GNU GENERAL PUBLIC LOCENCE. Version 3, 29 June 2007]]></licence>
+		<summary>KODI Popcorn Time repository from Markop159</summary>
+		<description>Download, update and install KODI Popcorn Time repository from Markop159.</description>
+		<disclaimer>
+			The Software is provided "as is" without warranty of any kind, either express or implied, including without limitation any implied warranties of condition, uninterrupted use, merchantability, fitness for a particular purpose, or non-infringement.
+			Markop159 and anyone associated with these addons will not be held responsible for the use or misuse of this software if considered illegal in your country.  Use of this software is at your own risk.
+		</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
