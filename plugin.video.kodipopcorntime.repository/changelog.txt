@@ -1,2 +1,5 @@
-V 1.0
-Official Repo Initial Version
+v1.0.0
+- Official Repo Initial Version
+
+v1.1.0
+- New location of Releases
