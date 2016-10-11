@@ -42,7 +42,7 @@
 		<nofanart>false</nofanart>
 	</extension>
 </addon>
-<addon id="plugin.video.rtvslo" name="RTV Slovenija" version="2.0.4" provider-name="royle">
+<addon id="plugin.video.rtvslo" name="RTV Slovenija" version="2.1.0" provider-name="Markop159">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
