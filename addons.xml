@@ -93,7 +93,7 @@
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>audio</provides>
 	</extension>
-	<extension point="xbmc.addon.audio">
+	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Listen to Slovenian Radio Stations</summary>
 		<summary lang="sl">Poslušaj Slovenske Radio Postaje</summary>
 		<description lang="en"></description>
