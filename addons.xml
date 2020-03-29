@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.kodipopcorntime"
 	name="KODI Popcorn Time"
-	version="1.7.2"
+	version="1.7.3"
 	provider-name="Markop159">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
@@ -23,7 +23,28 @@
 </addon>
 <addon id="plugin.video.kodipopcorntime"
 	name="KODI Popcorn Time"
-	version="1.7.3"
+	version="1.7.4"
+	provider-name="Markop159">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<website><![CDATA[https://markop159.github.io/KodiPopcornTime/]]></website>
+		<source><![CDATA[https://github.com/markop159/KODI-Popcorn-Time]]></source>
+		<language>English</language>
+		<licence><![CDATA[GNU GENERAL PUBLIC LICENCE. Version 3, 29 June 2007]]></licence>
+		<summary lang="en"><![CDATA[KODI Popcorn Time: Stream movies, Tv Shows and Anime in KODI.]]></summary>
+		<noicon>false</noicon>
+		<nofanart>false</nofanart>
+	</extension>
+</addon>
+<addon id="plugin.video.kodipopcorntime.beta"
+	name="KODI Popcorn Time"
+	version="1.7.4b"
 	provider-name="Markop159">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
